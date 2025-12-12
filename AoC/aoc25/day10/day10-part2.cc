@@ -15,7 +15,7 @@ struct timer
 
 int main(int, char**)
 {
-  std::ifstream f("input.day10", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   int ans = 0;
 
   // GLP initialization

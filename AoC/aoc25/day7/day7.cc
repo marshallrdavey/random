@@ -53,7 +53,7 @@ int main(int, char**)
   std::cout << ans << '\n';
   f.close();
 
-  f.open("input.day7");
+  f.open("input.test");
   std::getline(f, ln);
   ps.clear();
   tmp.clear();

@@ -14,7 +14,7 @@ struct timer
 int main(int, char**)
 {
   // Gimmic day. Does not hold for test input. Only one part.
-  std::fstream f("input.day12", std::ios::in);
+  std::fstream f("input.test", std::ios::in);
   // const std::vector<unsigned int> as({7, 7, 6, 7, 5, 7});
   // const std::vector<unsigned int> as({9, 9, 9, 9, 9, 9});
   unsigned int ans = 0;

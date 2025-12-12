@@ -70,6 +70,8 @@ int main(int, char**)
    *
    * You could add a counts variable to the paths_a_b input to verify, but its
    * multiplicative (see math class).
+   *
+   * Use input.test-part2 for this section.
    */
   unsigned long ans2 = 1ul;
   t.start();

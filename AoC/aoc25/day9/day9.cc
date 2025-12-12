@@ -36,7 +36,7 @@ edge(const std::array<unsigned long, 2> &a,
 
 int main(int, char**)
 {
-  std::ifstream f("input.day9", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   timer t;
   std::vector<std::array<unsigned long, 2>> rs;
   t.start();

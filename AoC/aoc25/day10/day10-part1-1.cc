@@ -60,7 +60,7 @@ permute_no_recursion(std::vector<std::array<std::uint16_t, 2>> &in,
 
 int main(int, char**)
 {
-  std::ifstream f("input.day10", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   unsigned int ans = 0;
   timer t;
   t.start();

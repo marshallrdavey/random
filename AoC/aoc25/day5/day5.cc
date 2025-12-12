@@ -16,7 +16,7 @@ struct timer
 
 int main(int, char**)
 {
-  std::ifstream f("input.day5", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   std::vector<std::pair<unsigned long, unsigned long>> ranges;
   unsigned int ans = 0;
   timer t;

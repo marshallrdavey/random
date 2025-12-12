@@ -14,7 +14,7 @@ struct timer
 
 int main(int, char**)
 {
-  std::ifstream f("input.day4", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   std::vector<std::string> in;
   unsigned int nl = 0;
   unsigned int nc = 0;
