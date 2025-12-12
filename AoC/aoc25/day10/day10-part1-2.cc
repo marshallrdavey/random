@@ -57,7 +57,7 @@ combinations (std::uint16_t     *a,
 
 int main(int, char**)
 {
-  std::ifstream f("input.day10", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   unsigned int ans = 0;
   timer t;
   t.start();

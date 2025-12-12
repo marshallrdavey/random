@@ -54,7 +54,7 @@ int main (int, char**)
 {
   timer t;
   t.start();
-  std::ifstream f("input.day2", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   std::string ss;
   f >> ss;
   std::string::size_type p0 = 0;

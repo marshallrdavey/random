@@ -26,7 +26,7 @@ dist(const std::array<unsigned long, 3> &a,
 
 int main(int, char**)
 {
-  std::ifstream f("input.day8", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   timer t;
   std::vector<std::array<unsigned long, 3>> ps;
   std::string::size_type c0, c1;

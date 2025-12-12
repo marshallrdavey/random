@@ -12,7 +12,7 @@ struct timer
 
 int main(int, char**)
 {
-  std::ifstream f1("input.day1", std::ios::in);
+  std::ifstream f1("input.test", std::ios::in);
   int no = 50;
   unsigned int count = 0;
 
@@ -31,7 +31,7 @@ int main(int, char**)
   std::cout << count << '\n';
   
 
-  std::ifstream f2("input.day1", std::ios::in);
+  std::ifstream f2("input.test", std::ios::in);
   no = 50;
   count = 0;
   int no_new;

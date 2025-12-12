@@ -13,7 +13,7 @@ struct timer
 
 int main(int, char**)
 {
-  std::ifstream f("input.day3", std::ios::in);
+  std::ifstream f("input.test", std::ios::in);
   timer t;
   unsigned int ans = 0;
   unsigned int n0;
@@ -54,7 +54,7 @@ int main(int, char**)
   unsigned long long ans2 = 0;
   unsigned int i1;
   unsigned int ns;
-  std::ifstream f2("input.day3", std::ios::in);
+  std::ifstream f2("input.test", std::ios::in);
   t.start();
   for (std::string ss; std::getline(f2, ss);)
     {

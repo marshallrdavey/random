@@ -56,7 +56,7 @@ int main(int, char**)
   std::cout << ans << '\n';
   f.close();
 
-  f.open("input.day6");
+  f.open("input.test");
   std::vector<std::string> ls;
   std::string::size_type p;
   std::vector<char> os;
